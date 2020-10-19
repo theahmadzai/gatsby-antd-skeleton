@@ -23,7 +23,7 @@ export const SEO = ({ title, description, pathname }) => {
         { name: 'description', content: description },
         { property: 'og:title', content: title },
         { property: 'og:description', content: description },
-        { property: 'og:url', content: `${url}/${pathname}` },
+        { property: 'og:url', content: `${url}${pathname}` },
         { property: 'og:type', content: 'website' },
         { property: 'og:image', content: 'image' },
         { name: 'twitter:card', content: 'summary' },

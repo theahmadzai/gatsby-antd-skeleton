@@ -29,6 +29,4 @@ module.exports = {
     twitter: 'https://www.twitter.com',
     instagram: 'https://www.instagram.com',
   },
-
-  copyrights: 'Copyrights',
 }

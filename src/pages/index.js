@@ -1,10 +1,10 @@
 import React from 'react'
 import { Result } from 'antd'
-import { SEO } from '../components'
+import { Layout, SEO } from '../components'
 
 export default ({ location }) => (
-  <div>
+  <Layout>
     <SEO title="Home" pathname={location.pathname} />
     <Result status="success" title="Index Page" />
-  </div>
+  </Layout>
 )
