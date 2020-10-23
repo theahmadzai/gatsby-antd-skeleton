@@ -2,9 +2,9 @@ import React from 'react'
 import Layout from '../../components/Layout/Layout'
 import styles from './Dummy.module.less'
 
-const DummyTemplate = () => (
+const DummyTemplate = ({ pageContext: { title } }) => (
   <Layout>
-    <h1 className={styles.dummy}>Dummy Template</h1>
+    <h1 className={styles.dummy}>{title}</h1>
   </Layout>
 )
 
