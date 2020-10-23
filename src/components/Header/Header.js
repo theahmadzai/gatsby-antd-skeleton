@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from './Header.module.less'
 import Logo from '../Logo/Logo'
+import styles from './Header.module.less'
 
 const Header = () => (
   <header className={styles.header}>
