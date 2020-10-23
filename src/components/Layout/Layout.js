@@ -1,8 +1,9 @@
 import React from 'react'
 import styles from './Layout.module.less'
-import { Header, Footer } from '../'
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 
-export const Layout = ({ children }) => {
+const Layout = ({ children }) => {
   return (
     <>
       <Header />
@@ -11,3 +12,5 @@ export const Layout = ({ children }) => {
     </>
   )
 }
+
+export default Layout

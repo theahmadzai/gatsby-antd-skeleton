@@ -1,6 +1,7 @@
 import React from 'react'
 import { Result } from 'antd'
-import { Layout, SEO } from '../components'
+import Layout from '../components/Layout/Layout'
+import SEO from '../components/SEO/SEO'
 
 export default ({ location }) => (
   <Layout>

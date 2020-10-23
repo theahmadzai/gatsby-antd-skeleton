@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Logo = () => (
+const Logo = () => (
   <svg width="91" height="24" viewBox="0 0 106 28">
     <g fill="#000000">
       <path d="M62.9,12h2.8v10h-2.8v-1.3c-1,1.5-2.3,1.6-3.1,1.6c-3.1,0-5.1-2.4-5.1-5.3c0-3,2-5.3,4.9-5.3c0.8,0,2.3,0.1,3.2,1.6V12z M57.7,17c0,1.6,1.1,2.8,2.8,2.8c1.6,0,2.8-1.2,2.8-2.8c0-1.6-1.1-2.8-2.8-2.8C58.9,14.2,57.7,15.4,57.7,17z"></path>
@@ -22,3 +22,5 @@ export const Logo = () => (
     </g>
   </svg>
 )
+
+export default Logo
