@@ -1,8 +1,7 @@
-const dotenv = require('dotenv')
+const path = require('path')
 const lessToJson = require('less-to-json')
 const { siteMetadata, manifest } = require('./config')
-
-dotenv.config()
+require('dotenv').config({ path: '.env' })
 
 module.exports = {
   siteMetadata: siteMetadata,
@@ -18,7 +17,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
-        path: 'src/images',
+        path: path.join(__dirname, 'src', 'images'),
       },
     },
     {

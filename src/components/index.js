@@ -1,5 +1,5 @@
+export * from './SEO/SEO'
 export * from './Layout/Layout'
 export * from './Header/Header'
 export * from './Footer/Footer'
-export * from './SEO'
-export * from './Logo'
+export * from './Logo/Logo'
