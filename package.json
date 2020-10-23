@@ -1,9 +1,12 @@
 {
-  "private": "true",
-  "name": "gatsby-antd-skeleton",
+  "private": true,
   "version": "1.0.0",
+  "name": "gatsby-antd-skeleton",
   "description": "Gatsby Antd Skeleton",
-  "author": "Javed Ahmadzai",
+  "author": {
+    "name": "Javed Ahmadzai",
+    "email": "theahmadzai@hotmail.com"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",

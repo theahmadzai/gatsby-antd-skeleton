@@ -4,7 +4,7 @@ const { siteMetadata, manifest } = require('./config')
 require('dotenv').config({ path: '.env' })
 
 module.exports = {
-  siteMetadata: siteMetadata,
+  siteMetadata,
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
